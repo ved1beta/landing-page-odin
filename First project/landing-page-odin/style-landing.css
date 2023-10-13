@@ -1,0 +1,101 @@
+*{
+    font-family: monospace;
+}
+.header{
+    justify-content: space-around;
+    display: flex;
+}
+.l{
+    color: white;
+}
+ul{
+    color: white;
+ list-style: none;
+    display: flex;
+    gap: 18px;
+}
+a{
+    text-decoration: none;
+}
+.colour{
+    border: #1F2937 solid 10px;
+  background-color: #1F2937;
+}
+.text-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 840px;
+   padding-left: 250px;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+}
+.te{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 15px;
+    background-color: rgb(80, 129, 233);
+  width: 90px;
+  
+  border :white 2px solid;
+}
+.info{
+    font-size: x-large;
+   color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.box{
+   border-radius: 15px;
+  border: rgb(77, 146, 236) 3px solid;
+    width: 100px;
+    height: 100px;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.quote{
+    font-size: x-large;
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 226, 226);
+    height: 100px;
+}
+.last{
+    width: 400px;
+}
+.loot{
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    margin: 50px;
+    background-color: rgb(80, 129, 233);
+    justify-content: space-around;
+}
+.b2{
+    background-color: rgb(80, 129, 233);
+    border: white 2px solid;
+    border-radius: 15px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+height: 40px;
+margin: 0px;
+}
+.box+text{
+    width: 100px;
+}
